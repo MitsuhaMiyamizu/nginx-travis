@@ -52,7 +52,7 @@ before_install:
 - make -j4
 
 install:
-- make install
+- sudo make install
 
 before_script:
 script:
