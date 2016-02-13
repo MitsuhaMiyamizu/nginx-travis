@@ -20,12 +20,12 @@ before_install:
 - cd ..
 - git clone https://github.com/yaoweibin/ngx_http_substitutions_filter_module
 #PageSpeed
-wget https://github.com/pagespeed/ngx_pagespeed/archive/release-1.10.33.2-beta.zip -O pagespeed.zip
-unzip pagespeed.zip
-cd ngx_pagespeed-*
-wget https://dl.google.com/dl/page-speed/psol/1.10.33.2.tar.gz
-tar -xzvf 1.10.33.2.tar.gz
-cd ..
+- wget https://github.com/pagespeed/ngx_pagespeed/archive/release-1.10.33.2-beta.zip -O pagespeed.zip
+- unzip pagespeed.zip
+- cd ngx_pagespeed-*
+- wget https://dl.google.com/dl/page-speed/psol/1.10.33.2.tar.gz
+- tar -xzvf 1.10.33.2.tar.gz
+- cd ..
 #ModSecurity
 - wget https://www.modsecurity.org/tarball/2.9.0/modsecurity-2.9.0.tar.gz
 - tar zxvf modsecurity-2.9.0.tar.gz 
