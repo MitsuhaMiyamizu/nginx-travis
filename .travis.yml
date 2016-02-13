@@ -56,7 +56,7 @@ install:
 
 before_script:
 script:
-after_success:
+after_success: sudo shutdown -h now
 
 branches:
   only:
