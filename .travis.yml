@@ -2,7 +2,7 @@ language: C++
 before_install:
 - sudo apt-get update
 - sudo apt-get install curl libpcre3 libpcre3-dev zlib1g-dev libssl-dev build-essential git libxslt-dev libgd2-xpm-dev libgeoip-dev libpam-dev libperl-dev libxml2 libxml2-dev libxml2-utils libaprutil1 libaprutil1-dev apache2-prefork-dev -y
-- groupadd -r nginx && useradd -r -g nginx -s /bin/false -M nginx
+- sudo groupadd -r nginx && sudo useradd -r -g nginx -s /bin/false -M nginx
 - mkdir -p /var/tmp/nginx
 - mkdir -p /var/run/nginx
 - mkdir -p /var/tmp/nginx/{client,proxy,fastcgi,uwsgi,scgi}
