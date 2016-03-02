@@ -20,9 +20,9 @@ before_install:
 - cd ..
 #openSSL 1.0.2 stable
 - git clone https://github.com/cloudflare/sslconfig
-- wget -O openssl.zip -c https://github.com/openssl/openssl/archive/OpenSSL_1_0_1s.zip
+- wget -O openssl.zip -c https://github.com/openssl/openssl/archive/OpenSSL_1_0_2-stable.zip
 - unzip openssl.zip
-- mv openssl-OpenSSL_1_0_1s/ openssl
+- mv openssl-OpenSSL_1_0_2-stable/ openssl
 - cd openssl && patch -p1 < ../sslconfig/patches/openssl__chacha20_poly1305_cf.patch 
 - cd ../
 - wget -O nginx-ct.zip -c https://github.com/grahamedgecombe/nginx-ct/archive/v1.0.0.zip
