@@ -23,7 +23,7 @@ git clone https://github.com/cloudflare/sslconfig
 wget -O openssl.zip -c https://github.com/openssl/openssl/archive/OpenSSL_1_0_2g.zip
 unzip openssl.zip
 mv openssl-OpenSSL_1_0_2g/ openssl
-cd openssl && patch -p1 < ../sslconfig/patches/openssl__chacha20_poly1305_draft_and_rfc_ossl102f.patch
+cd openssl && patch -p1 < ../sslconfig/patches/openssl__chacha20_poly1305_draft_and_rfc_ossl102g.patch
 cd ../
 wget -O nginx-ct.zip -c https://github.com/grahamedgecombe/nginx-ct/archive/v1.0.0.zip
 unzip nginx-ct.zip
