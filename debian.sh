@@ -4,11 +4,11 @@ sudo apt-get update
 sudo apt-get install curl libpcre3 libpcre3-dev zlib1g-dev libssl-dev build-essential git libxslt-dev libgd2-xpm-dev libgeoip-dev libpam-dev libperl-dev libxml2 libxml2-dev libxml2-utils libaprutil1 libaprutil1-dev apache2-prefork-dev libtool automake -y
 wget https://nginx.org/download/nginx-1.11.3.tar.gz && tar zxvf nginx-1.11.3.tar.gz
 #PageSpeed
-wget https://github.com/pagespeed/ngx_pagespeed/archive/release-1.11.33.2-beta.zip -O pagespeed.zip
+wget https://github.com/pagespeed/ngx_pagespeed/archive/release-1.11.33.3-beta.zip -O pagespeed.zip
 unzip pagespeed.zip
 cd ngx_pagespeed-*
-wget https://dl.google.com/dl/page-speed/psol/1.11.33.2.tar.gz
-tar -xzvf 1.11.33.2.tar.gz
+wget https://dl.google.com/dl/page-speed/psol/1.11.33.3.tar.gz
+tar -xzvf 1.11.33.3.tar.gz
 cd ..
 #openSSL 1.0.2 stable
 git clone https://github.com/cloudflare/sslconfig
