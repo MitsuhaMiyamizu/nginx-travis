@@ -3,7 +3,7 @@ before_install:
 - sudo apt-get update
 - sudo apt-get upgrade
 - sudo apt-get dist-upgrade
-- sudo do-release-upgrade
+- sudo do-release-upgrade -f DistUpgradeViewNonInteractive
 - sudo apt-get install curl libpcre3 libpcre3-dev zlib1g-dev libssl-dev build-essential git libxslt-dev libgd2-xpm-dev libgeoip-dev libpam-dev libperl-dev libxml2 libxml2-dev libxml2-utils libaprutil1 libaprutil1-dev apache2-prefork-dev libtool automake -y
 - wget http://nginx.org/download/nginx-1.9.14.tar.gz && tar zxvf nginx-1.9.14.tar.gz
 #PageSpeed
