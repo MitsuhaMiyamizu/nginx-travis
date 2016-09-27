@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get install curl libpcre3 libpcre3-dev zlib1g-dev libssl-dev build-essential git libxslt-dev libgd2-xpm-dev libgeoip-dev libpam-dev libperl-dev libxml2 libxml2-dev libxml2-utils libaprutil1 libaprutil1-dev apache2-prefork-dev libtool automake -y
+sudo apt-get install unzip build-essential curl libpcre3 libpcre3-dev zlib1g-dev libssl-dev build-essential git libxslt-dev libgd2-xpm-dev libgeoip-dev libpam-dev libperl-dev libxml2 libxml2-dev libxml2-utils libaprutil1 libaprutil1-dev apache2-prefork-dev libtool automake -y
 wget https://nginx.org/download/nginx-1.11.4.tar.gz && tar zxvf nginx-1.11.4.tar.gz
 #PageSpeed
 wget https://github.com/pagespeed/ngx_pagespeed/archive/release-1.11.33.4-beta.zip -O pagespeed.zip
