@@ -12,9 +12,9 @@ tar -xzvf 1.11.33.4.tar.gz
 cd ..
 #openSSL 1.0.2 stable
 git clone https://github.com/travislee8964/sslconfig
-wget -O openssl.zip -c https://github.com/openssl/openssl/archive/OpenSSL_1_0_2i.zip
+wget -O openssl.zip -c https://github.com/openssl/openssl/archive/OpenSSL_1_0_2j.zip
 unzip openssl.zip
-mv openssl-OpenSSL_1_0_2i/ openssl
+mv openssl-OpenSSL_1_0_2j/ openssl
 cd openssl && patch -p1 < ../sslconfig/patches/openssl__chacha20_poly1305_draft_and_rfc_ossl102i.patch
 cd ../
 wget -O nginx-ct.zip -c https://github.com/grahamedgecombe/nginx-ct/archive/v1.3.0.zip
